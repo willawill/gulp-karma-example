@@ -1,4 +1,27 @@
-Gulpfile-coffee-example
+Gulpfile example
 =======================
 
-Example of Gulpfile.coffee: CoffeeScript compilation, coffeelint, karma unittests, require.js build
+Gulpfile.coffee: 
+
+- CoffeeScript compilation
+
+- Coffeelint
+
+- Running Karma unittests
+
+- Require.js build
+
+
+###How to run server
+
+`npm start`
+
+
+###How to run tests once
+
+`npm test`
+
+
+###How to make Requirejs build
+
+`npm build`
