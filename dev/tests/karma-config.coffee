@@ -6,6 +6,7 @@ module.exports = (config) ->
     frameworks: ['mocha', 'chai'],
 
     files: [
+      {pattern: 'app/**/*.js', included: false, served: true, watched: false}
       {pattern: 'tests/**/*.js', included: true, served: true, watched: false}
     ],
 
