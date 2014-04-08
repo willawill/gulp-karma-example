@@ -6,7 +6,7 @@ module.exports = (config) ->
     frameworks: ['mocha', 'chai'],
 
     files: [
-
+      {pattern: 'tests/**/*.js', included: true, served: true, watched: false}
     ],
 
     # list of files to exclude
