@@ -1,5 +1,5 @@
 {
-  "name": "Gulpfile-coffee-example",
+  "name": "gulp-karma-example",
   "description": "Example of Gulpfile.coffee: CoffeeScript, coffeelint, karma, require.js build",
   "version": "1.0.0",
   "license": "MIT",

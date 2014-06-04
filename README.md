@@ -12,16 +12,6 @@ Gulpfile.coffee:
 - Require.js build
 
 
-###How to run server
+###How to run test
 
-`npm start`
-
-
-###How to run tests once
-
-`npm test`
-
-
-###How to make Requirejs build
-
-`npm build`
+gulp test
