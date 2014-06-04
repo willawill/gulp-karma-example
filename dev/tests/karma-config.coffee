@@ -3,10 +3,10 @@ module.exports = (config) ->
     # base path, that will be used to resolve files and exclude
     basePath: '../'
 
-    frameworks: ['mocha', 'chai'],
+    frameworks: ['jasmine', 'mocha', 'chai'],
 
     files: [
-      {pattern: 'app/**/*.js', included: false, served: true, watched: false}
+      {pattern: 'app/**/*.js', included: true, served: true, watched: false}
       {pattern: 'tests/**/*.js', included: true, served: true, watched: false}
     ],
 
@@ -43,17 +43,6 @@ module.exports = (config) ->
     # CLI --auto-watch --no-auto-watch
     autoWatch: true,
 
-    # Start these browsers, currently available:
-    # - Chrome
-    # - ChromeCanary
-    # - Firefox
-    # - Opera
-    # - Safari (only Mac)
-    # - PhantomJS
-    # - IE (only Windows)
-    # CLI --browsers Chrome,Firefox,Safari
-    browsers: ['Chrome'],
-
     # If browser does not capture in given timeout [ms], kill it
     # CLI --capture-timeout 5000
     captureTimeout: 20000,
@@ -71,6 +60,7 @@ module.exports = (config) ->
       'karma-chai',
       'karma-phantomjs-launcher',
       'karma-chrome-launcher',
+      'karma-jasmine',
       'karma-firefox-launcher'
     ]
   })
